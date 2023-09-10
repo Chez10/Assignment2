@@ -30,8 +30,12 @@ class Assignment2:
     @staticmethod
     def checkGoodString(string):
         # string is a str
-        u = re.findall(r'\d+', string)
-        if len(string) >= 9 & string[0].islower() & len(u) == 1:
+        #u = re.findall(r'\d+', string)
+        u=0
+        for i in string:
+            if i.isdigit():
+                u += 1
+        if len(string) >= 9 & string[0].islower() & u == 1:
             return True
         return False
 
