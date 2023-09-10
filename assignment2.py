@@ -30,7 +30,6 @@ class Assignment2:
     @staticmethod
     def checkGoodString(string):
         # string is a str
-        #u = re.findall(r'\d+', string)
         u=0
         for i in string:
             if i.isdigit():
