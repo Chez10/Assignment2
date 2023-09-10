@@ -35,7 +35,7 @@ class Assignment2:
         for i in string:
             if i.isdigit():
                 u += 1
-        if len(string) >= 9 & string[0].islower() & u == 1:
+        if len(string) >= 9 and string[0].islower() and u == 1:
             return True
         return False
 
