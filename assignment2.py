@@ -8,7 +8,7 @@ class Assignment2:
 
     # Task 2
     def tellAge(self, currentYear):
-        print("Your age is ", currentYear-self.year)
+        print("Your age is", currentYear-self.year)
 
     # Task 3
     def listAnniversaries(self):
